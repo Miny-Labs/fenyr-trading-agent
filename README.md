@@ -1,24 +1,38 @@
-# Fenyr AI Trading Agent
+# Fenyr AI Trading Agent (Python POC)
 
 <div align="center">
 
-![Fenyr Logo](https://img.shields.io/badge/🤖-Fenyr-blueviolet?style=for-the-badge)
+> ⚠️ **ARCHIVED - Proof of Concept**
+> 
+> This is the Python proof-of-concept version. The production TypeScript version is at:
+> **[fenyr-ts](https://github.com/Miny-Labs/fenyr-ts)**
+
+![Fenyr Logo](https://img.shields.io/badge/🤖-Fenyr_POC-gray?style=for-the-badge)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![GPT-5.2](https://img.shields.io/badge/OpenAI-GPT--5.2-00A67E?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/)
-[![WEEX](https://img.shields.io/badge/WEEX-Exchange-FF6B00?style=for-the-badge)](https://www.weex.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Archived-red?style=for-the-badge)](.)
 
-**Autonomous AI Trading Agent powered by GPT-5.2**
+**Python Proof-of-Concept for AI Trading Agent**
 
-*Built for [AI Wars: WEEX Alpha Awakens](https://www.weex.com/events/promo/aiwars) Hackathon*
-
-[Features](#-features) • [Architecture](#-architecture) • [Quick Start](#-quick-start) • [API Reference](#-api-reference) • [Contributing](#-contributing)
+*Superseded by [fenyr-ts](https://github.com/Miny-Labs/fenyr-ts) - TypeScript production version*
 
 </div>
 
 ---
 
-## 🎯 Overview
+## ⚠️ This Repository is Archived
+
+This Python version was a proof-of-concept to validate the multi-agent trading architecture. The production version has been rewritten in **TypeScript** with:
+
+- Full WEEX SDK integration
+- Type-safe agent tools with Zod
+- Real-time WebSocket support
+- Improved performance
+
+👉 **Use the TypeScript version:** https://github.com/Miny-Labs/fenyr-ts
+
+---
+
+## 📋 What This POC Demonstrated
 
 Fenyr is a production-grade AI trading agent that leverages **OpenAI's GPT-5.2** model to autonomously analyze cryptocurrency markets and execute trades on WEEX Exchange. Using advanced function calling capabilities, Fenyr can:
 
